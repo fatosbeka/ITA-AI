@@ -1,0 +1,21 @@
+version: '3'
+services:
+  backend:
+    build:
+      context: ./backend
+    ports:
+      - "8000:8000"
+    networks:
+      - ita-ai-network
+  
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - "8501:8501"
+    networks:
+      - ita-ai-network
+    
+networks:
+  ita-ai-network:
+    driver: bridge
