@@ -1,5 +1,4 @@
 fastapi
 uvicorn
-pydantic
-sqlalchemy
-databases
+psycopg2-binary  # If using PostgreSQL
+openai  # If using OpenAI API
