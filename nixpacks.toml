@@ -1,8 +1,8 @@
 [build]
-  # Define what packages should be installed for the build
-  [build.packages]
-  dependencies = ["python", "pip", "uvicorn", "fastapi"]
+# Define what packages should be installed for the build
+[build.packages]
+dependencies = ["python", "pip"]
 
 [deploy]
-  # Target environment
-  target = "production"
+# Target environment
+target = "production"
