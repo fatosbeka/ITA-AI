@@ -1,8 +1,5 @@
 [build]
-# Define what packages should be installed for the build
-[build.packages]
-dependencies = ["python", "pip"]
+packages = ["python", "pip"]
 
 [deploy]
-# Target environment
 target = "production"
