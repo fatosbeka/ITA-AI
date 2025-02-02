@@ -2,3 +2,4 @@ fastapi
 uvicorn
 psycopg2-binary  # If using PostgreSQL
 openai  # If using OpenAI API
+flask
